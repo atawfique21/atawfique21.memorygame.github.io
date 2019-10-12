@@ -1,13 +1,13 @@
 a {
-	display: inline;
+	display: inline-block;
 	margin-top: -90px;
 	text-decoration: none;
 	font-family: "Raleway", sans-serif;
 	color: #F15B31!important;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 	font-weight: 600;
 	font-size: 18px;
-	margin-bottom: 6px;
+	margin-bottom: 2px;
 }
 
 h1 {
@@ -18,6 +18,7 @@ h1 {
 	display: inline;
 	filter: invert(100%);
 	color: #0D2C40!important;
+	letter-spacing: 1.5px;
 }
 
 h2 {
@@ -35,7 +36,8 @@ p {
 	font-size: 18px;
 	margin-top: -15px;
 	padding-bottom: 10px; 
-	filter: invert(100%);
+	color: white;
+	color: white;
 }
 
 body {
