@@ -11,13 +11,13 @@ a {
 }
 
 h1 {
-text-transform: uppercase;
-font-family: "Raleway", sans-serif;
-font-weight: 100;
-font-size: 50px;
-display: inline;
-filter: invert(100%);
-color: #0D2C40!important;
+	text-transform: uppercase;
+	font-family: "Raleway", sans-serif;
+	font-weight: 100;
+	font-size: 50px;
+	display: inline;
+	filter: invert(100%);
+	color: #0D2C40!important;
 }
 
 h2 {
@@ -28,19 +28,19 @@ h2 {
 }
 
 p {
-font-family: "Droid Serif", serif;
-letter-spacing: 1px;
-line-height: 26px;
-font-weight: 350;
-font-size: 18px;
-margin-top: -15px;
-padding-bottom: 10px;
-filter: invert(100%);
+	font-family: "Droid Serif", serif;
+	letter-spacing: 1px;
+	line-height: 26px;
+	font-weight: 350;
+	font-size: 18px;
+	margin-top: -15px;
+	padding-bottom: 10px; 
+	filter: invert(100%);
 }
 
 body {
-text-align: center;
-background-color: black;
+	text-align: center;
+	background-color: black;
 }
 
 img {
