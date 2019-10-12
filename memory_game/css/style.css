@@ -3,11 +3,11 @@ a {
 	margin-top: -90px;
 	text-decoration: none;
 	font-family: "Raleway", sans-serif;
-	color: #F15B31!important;
-	letter-spacing: 1px;
+	color: #FF8B68;
+	letter-spacing: 1.5px;
 	font-weight: 600;
 	font-size: 18px;
-	margin-bottom: 2px;
+	margin-bottom: 4px;
 }
 
 h1 {
@@ -16,24 +16,22 @@ h1 {
 	font-weight: 100;
 	font-size: 50px;
 	display: inline;
-	filter: invert(100%);
-	color: #0D2C40!important;
+	color: #ff6890!important;
 	letter-spacing: 1.5px;
 }
 
 h2 {
 	font-family: "Raleway", sans-serif;
-	font-weight: 550;
-	filter: invert(100%);
-	color: #0D2C40!important;
+	font-weight: 500;
+	color: #ff6890!important;
 }
 
 p {
 	font-family: "Droid Serif", serif;
-	letter-spacing: 1px;
+	letter-spacing: .5px;
 	line-height: 26px;
-	font-weight: 350;
-	font-size: 18px;
+	font-weight: 400;
+	font-size: 16px;
 	margin-top: -15px;
 	padding-bottom: 10px; 
 	color: white;
@@ -43,9 +41,27 @@ p {
 body {
 	text-align: center;
 	background-color: black;
+	margin-bottom: 100px;
 }
 
 img {
-	filter: invert(100%);
+	filter: invert(100);
 }
 
+div.cards {
+	padding-bottom: 50px;
+	margin-top: -10px;
+}
+
+footer {
+	margin-top: 30px;
+	font-family: "Droid Serif", serif;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	letter-spacing: 3px;
+	color: #FF8B68;
+	overflow: hidden;
+	background-color: black;
+	padding: 2px;
+}
