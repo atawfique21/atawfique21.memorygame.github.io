@@ -47,7 +47,8 @@ h2.game {
 	margin-top: -10px;
 }
 
-p {
+div.text {
+	color: white;
 	font-family: "Droid Serif", serif;
 	letter-spacing: .5px;
 	line-height: 26px;
@@ -55,8 +56,6 @@ p {
 	font-size: 16px;
 	margin-top: -15px;
 	padding-bottom: 10px; 
-	color: white;
-	color: white;
 }
 
 body {
@@ -78,15 +77,29 @@ div.cards {
 	background-color: #68FFD7;
 }*/
 
-footer {
-	margin-top: 30px;
-	font-family: "Droid Serif", serif;
-	position: fixed;
-	bottom: 0;
-	width: 100%;
-	letter-spacing: 3px;
-	color: #FF8B68;
-	overflow: hidden;
-	background-color: black;
-	padding: 2px;
+footer{
+	text-transform: uppercase;
+	padding: 0 20px 0 20px;
+	font-family: "Raleway", sans-serif;
+	background-color: #ff6890;
+	color: white;
+	letter-spacing: .08em;
+	font-weight: 500;
+}
+
+p.copyright {
+	float: left;
+}
+
+p.message {
+	float: right;
+}
+
+.clearfix:after {
+visibility: hidden;
+display: block;
+content: " ";
+clear: both;
+height: 0;
+font-size: 0;
 }
