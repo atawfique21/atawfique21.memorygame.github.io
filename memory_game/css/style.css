@@ -8,16 +8,38 @@ span.p {
 	display: inline;
 }
 
+input {
+	color: white;
+	font-family: "Raleway", sans-serif;
+	margin-bottom: 20px;
+	margin-top: -25px;
+	background: transparent;
+	border-color: #FF8B68;
+	padding: $button-padding/1.5 $button-padding*2.5 $button-padding/1.5 $button-padding*2.5;
+	font-size: 1.2em;
+	text-transform: uppercase;
+}
+
+nav {
+	margin-top: 2px;
+}
+
+input:hover {
+	background: #ff6890;
+	color: white;
+	border-color: transparent;
+}
+
 a {
 	display: inline;
 	margin-top: -90px;
 	text-decoration: none;
 	font-family: "Raleway", sans-serif;
 	color: #FF8B68;
-	letter-spacing: 2px;
+	letter-spacing: 3px;
 	font-weight: 600;
 	font-size: 15px;
-	margin-bottom: 4px;
+	margin-bottom: 10px;
 	padding: 2px;
 }
 
@@ -41,10 +63,19 @@ h2 {
 	font-family: "Raleway", sans-serif;
 	font-weight: 500;
 	color: #ff6890;
+	font-size: 25px;
 }
 
 h2.game {
 	margin-top: -10px;
+}
+
+h2.inst {
+	margin-top: 30px;
+}
+
+h2.third {
+	margin-top: -2px;
 }
 
 div.text {
@@ -53,7 +84,7 @@ div.text {
 	letter-spacing: .5px;
 	line-height: 26px;
 	font-weight: 400;
-	font-size: 16px;
+	font-size: 15px;
 	margin-top: -15px;
 	padding-bottom: 10px; 
 }
@@ -66,6 +97,8 @@ body {
 
 img {
 	filter: invert(100);
+	padding: 4px;
+	margin-bottom: -30px;
 }
 
 div.cards {
